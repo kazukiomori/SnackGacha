@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		3B9BD98A291E77FF0015F4B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9BD989291E77FF0015F4B9 /* AppDelegate.swift */; };
 		3B9BD98C291E77FF0015F4B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9BD98B291E77FF0015F4B9 /* SceneDelegate.swift */; };
-		3B9BD98E291E77FF0015F4B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9BD98D291E77FF0015F4B9 /* ViewController.swift */; };
+		3B9BD98E291E77FF0015F4B9 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9BD98D291E77FF0015F4B9 /* TopViewController.swift */; };
 		3B9BD991291E77FF0015F4B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9BD98F291E77FF0015F4B9 /* Main.storyboard */; };
 		3B9BD993291E78030015F4B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9BD992291E78030015F4B9 /* Assets.xcassets */; };
 		3B9BD996291E78030015F4B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9BD994291E78030015F4B9 /* LaunchScreen.storyboard */; };
+		3B9BD99F291F77DF0015F4B9 /* Extension-UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9BD99E291F77DF0015F4B9 /* Extension-UIImage.swift */; };
+		E6ACB095DA489BE52951CAB0 /* Pods_SnackGacha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9211A1DA364CF972DBF98E1 /* Pods_SnackGacha.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00DC46158A26178A5AB3E585 /* Pods-SnackGacha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackGacha.debug.xcconfig"; path = "Target Support Files/Pods-SnackGacha/Pods-SnackGacha.debug.xcconfig"; sourceTree = "<group>"; };
 		3B9BD986291E77FF0015F4B9 /* SnackGacha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackGacha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9BD989291E77FF0015F4B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B9BD98B291E77FF0015F4B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B9BD98D291E77FF0015F4B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B9BD98D291E77FF0015F4B9 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		3B9BD990291E77FF0015F4B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B9BD992291E78030015F4B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B9BD995291E78030015F4B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B9BD997291E78030015F4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B9BD99E291F77DF0015F4B9 /* Extension-UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-UIImage.swift"; sourceTree = "<group>"; };
+		A857D238E988390A2E9B85B8 /* Pods-SnackGacha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackGacha.release.xcconfig"; path = "Target Support Files/Pods-SnackGacha/Pods-SnackGacha.release.xcconfig"; sourceTree = "<group>"; };
+		F9211A1DA364CF972DBF98E1 /* Pods_SnackGacha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnackGacha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6ACB095DA489BE52951CAB0 /* Pods_SnackGacha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				3B9BD988291E77FF0015F4B9 /* SnackGacha */,
 				3B9BD987291E77FF0015F4B9 /* Products */,
+				55AFCFF42E5FC8850FA1C6C5 /* Pods */,
+				3F96C5E27DCF8A05AD6AD485 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +65,42 @@
 		3B9BD988291E77FF0015F4B9 /* SnackGacha */ = {
 			isa = PBXGroup;
 			children = (
+				3B9BD99D291F77C60015F4B9 /* Util */,
 				3B9BD989291E77FF0015F4B9 /* AppDelegate.swift */,
 				3B9BD98B291E77FF0015F4B9 /* SceneDelegate.swift */,
-				3B9BD98D291E77FF0015F4B9 /* ViewController.swift */,
+				3B9BD98D291E77FF0015F4B9 /* TopViewController.swift */,
 				3B9BD98F291E77FF0015F4B9 /* Main.storyboard */,
 				3B9BD992291E78030015F4B9 /* Assets.xcassets */,
 				3B9BD994291E78030015F4B9 /* LaunchScreen.storyboard */,
 				3B9BD997291E78030015F4B9 /* Info.plist */,
 			);
 			path = SnackGacha;
+			sourceTree = "<group>";
+		};
+		3B9BD99D291F77C60015F4B9 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3B9BD99E291F77DF0015F4B9 /* Extension-UIImage.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		3F96C5E27DCF8A05AD6AD485 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9211A1DA364CF972DBF98E1 /* Pods_SnackGacha.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55AFCFF42E5FC8850FA1C6C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00DC46158A26178A5AB3E585 /* Pods-SnackGacha.debug.xcconfig */,
+				A857D238E988390A2E9B85B8 /* Pods-SnackGacha.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B9BD99A291E78030015F4B9 /* Build configuration list for PBXNativeTarget "SnackGacha" */;
 			buildPhases = (
+				014A8D2D1EE64A2E998895D0 /* [CP] Check Pods Manifest.lock */,
 				3B9BD982291E77FF0015F4B9 /* Sources */,
 				3B9BD983291E77FF0015F4B9 /* Frameworks */,
 				3B9BD984291E77FF0015F4B9 /* Resources */,
+				D304130F54836DC76B1F27DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +171,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		014A8D2D1EE64A2E998895D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnackGacha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D304130F54836DC76B1F27DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnackGacha/Pods-SnackGacha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnackGacha/Pods-SnackGacha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnackGacha/Pods-SnackGacha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B9BD982291E77FF0015F4B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B9BD98E291E77FF0015F4B9 /* ViewController.swift in Sources */,
+				3B9BD98E291E77FF0015F4B9 /* TopViewController.swift in Sources */,
+				3B9BD99F291F77DF0015F4B9 /* Extension-UIImage.swift in Sources */,
 				3B9BD98A291E77FF0015F4B9 /* AppDelegate.swift in Sources */,
 				3B9BD98C291E77FF0015F4B9 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +363,7 @@
 		};
 		3B9BD99B291E78030015F4B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DC46158A26178A5AB3E585 /* Pods-SnackGacha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +392,7 @@
 		};
 		3B9BD99C291E78030015F4B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A857D238E988390A2E9B85B8 /* Pods-SnackGacha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

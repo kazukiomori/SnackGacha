@@ -7,5 +7,6 @@ target 'SnackGacha' do
 
   # Pods for SnackGacha
     pod 'SwiftGifOrigin'
+    pod 'Moya', '~> 15.0' 
 
 end

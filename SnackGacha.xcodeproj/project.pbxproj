@@ -14,6 +14,8 @@
 		3B9BD993291E78030015F4B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9BD992291E78030015F4B9 /* Assets.xcassets */; };
 		3B9BD996291E78030015F4B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9BD994291E78030015F4B9 /* LaunchScreen.storyboard */; };
 		3B9BD99F291F77DF0015F4B9 /* Extension-UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9BD99E291F77DF0015F4B9 /* Extension-UIImage.swift */; };
+		3B9BD9A12927E1020015F4B9 /* capcelgif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3B9BD9A02927E1020015F4B9 /* capcelgif.gif */; };
+		3B9BD9A32927E10F0015F4B9 /* capcelgif2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3B9BD9A22927E10F0015F4B9 /* capcelgif2.gif */; };
 		E6ACB095DA489BE52951CAB0 /* Pods_SnackGacha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9211A1DA364CF972DBF98E1 /* Pods_SnackGacha.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		3B9BD995291E78030015F4B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B9BD997291E78030015F4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B9BD99E291F77DF0015F4B9 /* Extension-UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-UIImage.swift"; sourceTree = "<group>"; };
+		3B9BD9A02927E1020015F4B9 /* capcelgif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = capcelgif.gif; sourceTree = "<group>"; };
+		3B9BD9A22927E10F0015F4B9 /* capcelgif2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = capcelgif2.gif; sourceTree = "<group>"; };
 		A857D238E988390A2E9B85B8 /* Pods-SnackGacha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackGacha.release.xcconfig"; path = "Target Support Files/Pods-SnackGacha/Pods-SnackGacha.release.xcconfig"; sourceTree = "<group>"; };
 		F9211A1DA364CF972DBF98E1 /* Pods_SnackGacha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnackGacha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,13 +69,16 @@
 		3B9BD988291E77FF0015F4B9 /* SnackGacha */ = {
 			isa = PBXGroup;
 			children = (
+				3B9BD9A5292A2F890015F4B9 /* API */,
+				3B9BD9A4292A2F6F0015F4B9 /* ViewController */,
 				3B9BD99D291F77C60015F4B9 /* Util */,
 				3B9BD989291E77FF0015F4B9 /* AppDelegate.swift */,
 				3B9BD98B291E77FF0015F4B9 /* SceneDelegate.swift */,
-				3B9BD98D291E77FF0015F4B9 /* TopViewController.swift */,
 				3B9BD98F291E77FF0015F4B9 /* Main.storyboard */,
 				3B9BD992291E78030015F4B9 /* Assets.xcassets */,
 				3B9BD994291E78030015F4B9 /* LaunchScreen.storyboard */,
+				3B9BD9A02927E1020015F4B9 /* capcelgif.gif */,
+				3B9BD9A22927E10F0015F4B9 /* capcelgif2.gif */,
 				3B9BD997291E78030015F4B9 /* Info.plist */,
 			);
 			path = SnackGacha;
@@ -83,6 +90,21 @@
 				3B9BD99E291F77DF0015F4B9 /* Extension-UIImage.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		3B9BD9A4292A2F6F0015F4B9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3B9BD98D291E77FF0015F4B9 /* TopViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3B9BD9A5292A2F890015F4B9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 		3F96C5E27DCF8A05AD6AD485 /* Frameworks */ = {
@@ -99,7 +121,6 @@
 				00DC46158A26178A5AB3E585 /* Pods-SnackGacha.debug.xcconfig */,
 				A857D238E988390A2E9B85B8 /* Pods-SnackGacha.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -163,9 +184,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B9BD9A32927E10F0015F4B9 /* capcelgif2.gif in Resources */,
 				3B9BD996291E78030015F4B9 /* LaunchScreen.storyboard in Resources */,
 				3B9BD993291E78030015F4B9 /* Assets.xcassets in Resources */,
 				3B9BD991291E77FF0015F4B9 /* Main.storyboard in Resources */,
+				3B9BD9A12927E1020015F4B9 /* capcelgif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
